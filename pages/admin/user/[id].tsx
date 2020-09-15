@@ -13,7 +13,7 @@ export default function AdminUser() {
       <Head>
         <title>User Detail</title>
       </Head>
-      <h1>Admin -> User page {router.query.id}</h1>
+      <h1>Admin User page {router.query.id}</h1>
       <Link href="/login"><a className="active">Go to homepage by tag</a></Link>
       <button onClick={handleOnclick}>Go to homepage</button>
     </div>
